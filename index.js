@@ -11,7 +11,7 @@ let idCounter = 1;
 
 // HOME ROUTE
 app.get("/", (req, res) => {
-  res.send("📚 Book API is running");
+  res.send(" Book API is running");
 });
 
 // GET all books
@@ -77,5 +77,6 @@ app.delete("/books/:id", (req, res) => {
 
 // START SERVER
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
+
